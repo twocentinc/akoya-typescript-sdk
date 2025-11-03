@@ -6,6 +6,7 @@
 
 import { isExpired, isValid } from './authentication';
 import { OauthToken } from './models/oauthToken';
+import type { OauthScope } from './models/oauthScope';
 import { ClientInterface } from './clientInterface';
 import { OauthAuthorizationApi } from './controllers/oauthAuthorizationApi';
 import { AUTHORIZATION_HEADER, setHeader } from '@apimatic/http-headers';
